@@ -19,5 +19,5 @@ on:
         - uses: actions/checkout@v2
   
         # Runs tests with docker-compose
-      - name: Run tests with docker-compose
-        run: docker-compose run tests
+        - name: Run tests with docker-compose
+          run: docker-compose run tests
