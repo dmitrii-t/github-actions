@@ -36,4 +36,4 @@ class TestDynamodbActions(unittest.TestCase):
         response = dynamodb.list_tables()
 
         # then
-        self.assertEqual([], response['TableNames'])
+        self.assertEqual(['TestTable'], response['TableNames'])
